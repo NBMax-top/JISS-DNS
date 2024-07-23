@@ -59,9 +59,6 @@
 <main class="bd-masthead" id="content">
     <div class="container">
         <div class="row">
-            <div class="col-12 mt-3">
-                {!! config('sys.html_header') !!}
-            </div>
             <div class="col-12 mt-0 mt-sm-3">
                 <form id="form-check">
                     <input type="text" class="d-none">
@@ -80,7 +77,10 @@
                     </div>
                 </form>
             </div>
-        </div>
+            <div class="col-12 mt-3">
+                {!! config('sys.html_header') !!}
+            </div>
+	</div>
     </div>
 </main>
 
